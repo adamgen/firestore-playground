@@ -5,6 +5,7 @@
   "repository": "github:adamgen/rezilion-components",
   "main": "dist/index.js",
   "scripts": {
+    "start": "yarn start:dev",
     "webpack": "webpack",
     "webpack:w": "webpack -w",
     "start:dev": "webpack-dev-server"
@@ -22,6 +23,7 @@
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0",
-    "webpack-livereload-plugin": "^2.2.0"
+    "webpack-livereload-plugin": "^2.2.0",
+    "yarn": "^1.22.4"
   }
 }
