@@ -1,6 +1,7 @@
 const path = require('path');
 var LiveReloadPlugin = require('webpack-livereload-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const Dotenv = require('dotenv-webpack');
 
 module.exports = {
   entry: './src/index.ts',
@@ -33,5 +34,6 @@ module.exports = {
   plugins: [
     new LiveReloadPlugin(),
     new HtmlWebpackPlugin(),
+    new Dotenv(),
   ]
 };
